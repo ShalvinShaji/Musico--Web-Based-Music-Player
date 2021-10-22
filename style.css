@@ -32,6 +32,7 @@ body{
 .main button{
     padding: 10px 12px;
     margin: 10px;
+    cursor: pointer;
 }
  .main #logo{
      position: absolute;
@@ -71,6 +72,16 @@ body{
     
    
 }
- 
+  /*range sliders*/
+  input[type="range"]
+  {
+      -webkit-appearance: none;
+      width: 50%;
+      outline: none;
+      height: 2px;
+      margin: 0 15px;
+      cursor: pointer;
+  }
+
 
 
