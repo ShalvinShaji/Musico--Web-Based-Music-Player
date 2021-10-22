@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 body{
     height: 100vh;
@@ -8,6 +9,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    background: linear-gradient(to right, #ce3636, #566573)
    
 }
 
@@ -19,6 +21,10 @@ body{
      display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(to right, #5d5d5d, #566573)
+    border-radius: 40px;
+    background-image: url("covers/baground.jpg");
+    color: white;
     
 }
+
+
