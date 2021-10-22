@@ -111,5 +111,22 @@ body{
    color: white;
   }
 
+  .left .volume p{
+      font-size: 15px;
+  }
+  .left .volume i{
+      padding: 8px 12px;
+      cursor: pointer;
+  }
+
+  .left .volume i:hover{
+      background: #ce3636;
+      border-radius: 20px;
+  }
+  
+  
+  
+
+
 
 
