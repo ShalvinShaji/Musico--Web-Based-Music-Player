@@ -16,14 +16,14 @@
 
         
         <div class="left">
-        <img  id="track_cover">
-         <div class="volume"> 
+         <img  id="track_cover">
+          <div class="volume"> 
 
             <p id="volume_show"></i>90</p>
             <i class="fa fa-volume-up" aria-hidden="true" id="voulume_icon" onclick="mute_sound()"></i>
             <input type="range" min="0" max="100" onchange="volume_change()">
 
-         </div>
+          </div>
 
         </div>
 
@@ -36,26 +36,26 @@
                 <p id="total">10</p>
             </div>
 
-        <!--song title and artist name area-->
+           <!--song title and artist name area-->
 
-        <p id="title">title name</p>
-        <p id="artist">artist name</p>
+           <p id="title">title name</p>
+           <p id="artist">artist name</p>
 
-        <!--song play/pause section-->
+           <!--song play/pause section-->
 
-        <div class="middle">
+          <div class="middle">
             <button onclick="previous_song()" id="pre"><i class="fa fa-step-backward" aria-hidden="true"></i></button>
             <button onclick="justplay()"><i class="fa fa-play" aria-hidden="true"></i></button>
             <button onclick="next_song()" id="next"><i class="fa fa-step-forward" aria-hidden="true"></i></button>
-        </div>
+          </div>
 
           <!--song duration section-->
 
-          <div class="durartion">
+          <div class="duration">
             <input type="range" min="0" max="100" value="0" id="durarion_slider" onchange="change_duration()">
-        </div>  
-        <button id="auto" onclick="autoplay_switch()">Auto play <i class="fa fa-circle-o-notch" aria-hidden="true"></i></button>    
-
+          </div>  
+          <button id="auto" onclick="autoplay_switch()">Auto play <i class="fa fa-circle-o-notch" aria-hidden="true"></i></button>    
+        </div>
 
                
         
