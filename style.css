@@ -144,6 +144,7 @@ body{
 
 .right .middle button{
 	border: none;
+    margin-top: 110px;
 	height: 70px;
 	width: 70px;
 	border-radius: 50%;	
@@ -162,7 +163,7 @@ body{
 
 .right #title{
 	position: absolute;
-	top: 0;
+	margin-top: 0px;
 	left: 50%;
 	transform: translateX(-50%);
 	text-transform: capitalize;
@@ -171,7 +172,7 @@ body{
 }
 .right #artist{
 	position: absolute;
-	top: 50px;
+	top: 140px;
 	left: 50%;
 	transform: translateX(-50%);
 	text-transform: capitalize;
@@ -191,6 +192,58 @@ body{
 	height: 20px;
 	margin-top: 40px;
 }
+
+.right .duration p{
+	color: #fff;
+	font-size: 15px;
+	margin-left: 20px;
+}
+
+.right #auto{
+	font-size: 18px;
+	cursor: pointer;
+	margin-top: 40px;
+	border: none;
+	padding: 10px 14px;
+	color: #fff;
+	background: rgba(255,255,255,0.2);
+	outline: none;
+	border-radius: 10px;
+    
+}
+.right #auto:hover{
+    background-color: rgb(156, 147, 136);
+}
+
+.right i:before{
+	color: rgb(102, 92, 92);
+	font-size: 20px;
+}
+
+.right #auto i{
+	margin-left: 8px;
+   
+}
+
+#play{
+	background: #FF8A65;
+}
+
+.right .show_song_no{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 12px;
+    color: #fff;
+    border-radius: 5px;
+    background: rgba(255,255,255,0.2);
+  }
+
 
   
   
