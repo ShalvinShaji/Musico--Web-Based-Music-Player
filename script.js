@@ -30,32 +30,64 @@ let All_song = [
      name: "STAY",
      path: "music/1.mp3",
      img: "img/1.jpg",
-     singer: "Justin bieber"
+     singer: "Justin bieber, The Kid Laroi"
    },
    {
-     name: "second song",
+     name: "Memories",
      path: "music/2.mp3",
      img: "img/2.jpg",
-     singer: "2"
+     singer: "Maroon 5"
    },
    {
-     name: "third song",
+     name: "ily | i love you baby ",
      path: "music/3.mp3",
      img: "img/3.jpg",
-     singer: "3"
+     singer: "Surf Mesa"
    },
    {
-     name: "fourth song",
+     name: "Shape of You ",
      path: "music/4.mp3",
      img: "img/4.jpg",
-     singer: "4"
+     singer: "Ed Sheeran"
    },
    {
-     name: "fifth song",
+     name: "Perfect",
      path: "music/5.mp3",
      img: "img/5.jpg",
-     singer: "5"
-   }
+     singer: "Ed Sheeran"
+   },
+   {
+    name: "Hate Me ",
+    path: "music/6.mp3",
+    img: "img/6.jpg",
+    singer: "Ellie Goulding, Juice WRLD"
+  },
+  {
+    name: "Changes",
+    path: "music/7.mp3",
+    img: "img/7.jpg",
+    singer: "XXXTENTACION"
+  },
+  {
+    name: "Hope",
+    path: "music/8.mp3",
+    img: "img/8.jpg",
+    singer: "XXXTENTACION"
+  },
+  {
+    name: "Whoa",
+    path: "music/9.mp3",
+    img: "img/9.jpg",
+    singer: "XXXTENTACION"
+  },
+  {
+    name: "Sad",
+    path: "music/10.mp3",
+    img: "img/10.jpg",
+    singer: "XXXTENTACION"
+  }
+
+
 ];
 
 

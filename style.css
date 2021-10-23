@@ -9,7 +9,7 @@ body{
 	display: flex;
 	align-items: center;
 	justify-content: center;
-    background: linear-gradient(to right, #ce5b5b, #566573);
+    background: linear-gradient(to right, #412929, #566573);
 
 }
 .main{
@@ -30,8 +30,18 @@ body{
 	position: absolute;
 	top: 10px;
 	left: 30px;
-	font-size: 25px;
-	color: #ccc;
+	font-size: 40px;
+	color: tomato;
+}
+.main #m{
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.main #usic{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
 }
 .main #logo i{
 	margin-right: 15px;
@@ -68,7 +78,7 @@ input[type="range"]::-webkit-slider-thumb{
 	-webkit-appearance: none;
 	height: 20px;
 	width: 20px;
-	background: #FF8A65;
+	background: tomato;
 	border-radius: 50%;
 	cursor: pointer;
 }
@@ -97,7 +107,7 @@ input[type="range"]::-webkit-slider-thumb{
 .left .volume i{
 	cursor: pointer;
 	padding: 8px 12px;
-	background: #FF8A65;
+	background: tomato;
     border-radius: 30px;
 }
 .left .volume i:hover{
@@ -181,10 +191,10 @@ input[type="range"]::-webkit-slider-thumb{
 	margin-left: 8px;
 }
 #play{
-	background: #FF8A65;
+	background: tomato;
 }
 .right button:hover{
-	background: #FF8A65;
+	background: tomato;
 }
 .right i:before{
 	color: #fff;
@@ -202,7 +212,7 @@ input[type="range"]::-webkit-slider-thumb{
   justify-content: center;
   padding: 8px 12px;
   color: #fff;
-  border-radius: 5px;
+  border-radius: 30px;
   background: rgba(255,255,255,0.2);
 }
 .right .show_song_no p:nth-child(2){
